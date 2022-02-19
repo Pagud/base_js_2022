@@ -12,3 +12,5 @@ let myFirstName = "Dmitriy";
 console.log(myFirstName);
 let myPatronymic = "Mihailovich";
 console.log(myPatronymic);
+
+console.log("я запустил NODE JS");
