@@ -1,0 +1,105 @@
+/* Тело */
+body{
+    font-family: Montserrat;
+    color: #E5E5E5;
+
+}
+
+.container{
+    width: 1920px;
+    height: 1410px;
+}
+/* стили хэдера */
+header{
+    position: absolute;
+
+    background-color: #FFFFFF;
+    width: 1920px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 15px 35px
+    rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    }
+
+/* логотип */
+
+.logo {
+    position: absolute;
+width: 134px;
+height: 47px;
+left: 390px;
+top: 17px;
+}
+.contacts{
+    position: absolute;
+width: 154px;
+height: 22px;
+left: 1378px;
+top: 27px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #212121;
+}
+    /* стили навигации */
+    h1 { 
+        position: absolute;
+        width: 336px;
+        height: 49px;
+        left: 792px;
+        top: 143px;
+        font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+}
+p{
+    position: absolute;
+width: 1162px;
+height: 81px;
+left: 381px;
+top: 707px;
+font-family: Montserrat;
+font-style: italic;
+font-weight: 300;
+font-size: 32px;
+line-height: 150%;
+text-align: center;
+color: #FF445A;
+}
+.div{
+    position: absolute;
+width: 196px;
+height: 66px;
+left: 472px;
+top: 460px;
+}
+
+footer{
+    position: absolute;
+width: 1920px;
+height: 80px;
+left: 0px;
+top: 1330px;
+
+background: #FFB5B5;
+}
+.logo2 {
+    position: absolute;
+width: 169px;
+height: 27px;
+left: 876px;
+top: 1357px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+}
