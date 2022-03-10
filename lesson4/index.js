@@ -1,16 +1,16 @@
 
-// const myVar1 = 10
-// const myVar2 = 10
-// if (myVar1 > myVar2){
-//     console.log(`верно! ${myVar1} больше ${myVar2}`);
-// }
-// else if (myVar1 < myVar2 ) {
-//     console.log(`${myVar1} меньше ${myVar2}`);
-// }
-// else{
-//     console.log("end");
-// }
-// let result = myVar1 > myVar2 ? console.log(true) : console.log(false); // тернарный оператор
+const myVar1 = 1
+const myVar2 = 10
+if (myVar1 > myVar2){
+    console.log(`верно! ${myVar1} больше ${myVar2}`);
+}
+else if (myVar1 < myVar2 ) {
+    console.log(`${myVar1} меньше ${myVar2}`);
+}
+else{
+    console.log("end");
+}
+let result = myVar1 > myVar2 ? console.log(true) : console.log(false); // тернарный оператор
 
 // // конструкция switch
 
@@ -158,10 +158,10 @@
 //         break;
 //     }
 // }
-const startYear = 1800;
-const endYear = 2020;
+// const startYear = 1800;
+// const endYear = 2020;
 
-let leapYearsAmount = 0;
+// let leapYearsAmount = 0;
 // const firstSpaceTripYear = 1961;
 
 // for(let counter = startYear; counter <= endYear; counter++){
@@ -172,16 +172,16 @@ let leapYearsAmount = 0;
 //     }
 // }
 
-for (let year = startYear; year <= endYear; year++); {
-    if (year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0)) {
-        console.log(year);
-        leapYearsAmount += 1;
-    }
-}
-if (year === endYear){
-    console.log(`Количество високосных лет - ${leapYearsAmount}`);
-    console.log(`Количество итераций - ${year - startYear}`);
-}
+// for (let year = startYear; year <= endYear; year++); {
+//     if (year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0)) {
+//         console.log(year);
+//         leapYearsAmount += 1;
+//     }
+// }
+// if (year === endYear){
+//     console.log(`Количество високосных лет - ${leapYearsAmount}`);
+//     console.log(`Количество итераций - ${year - startYear}`);
+// }
 
 
 
