@@ -377,4 +377,4 @@
 //     console.log('Осень');
 // }
 
-let str = 'abcde';
+// let str = 'abcde';
