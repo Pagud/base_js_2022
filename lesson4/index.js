@@ -1,18 +1,17 @@
+// const myVar1 = 1
+// const myVar2 = 10
+// if (myVar1 > myVar2){
+//     console.log(`верно! ${myVar1} больше ${myVar2}`);
+// }
+// else if (myVar1 < myVar2 ) {
+//     console.log(`${myVar1} меньше ${myVar2}`);
+// }
+// else{
+//     console.log("end");
+// }
+// let result = myVar1 > myVar2 ? console.log(true) : console.log(false); // тернарный оператор
 
-const myVar1 = 1
-const myVar2 = 10
-if (myVar1 > myVar2){
-    console.log(`верно! ${myVar1} больше ${myVar2}`);
-}
-else if (myVar1 < myVar2 ) {
-    console.log(`${myVar1} меньше ${myVar2}`);
-}
-else{
-    console.log("end");
-}
-let result = myVar1 > myVar2 ? console.log(true) : console.log(false); // тернарный оператор
-
-// // конструкция switch
+// // // конструкция switch
 
 // const userRole = "admin";
 
@@ -44,7 +43,7 @@ let result = myVar1 > myVar2 ? console.log(true) : console.log(false); // тер
 
 // логическое НЕ
 // 1. JS приводит значение после ! к булиевому типу
-// 2. меняет полученны тип на противоположный 
+// 2. меняет полученны тип на противоположный
 // const myVar = !!5;
 
 // console.log(myVar);
@@ -92,7 +91,7 @@ let result = myVar1 > myVar2 ? console.log(true) : console.log(false); // тер
 //     console.log("очень тепло");
 // }
 // else if (currentTemp > 25 && currentTemp < 35){
-    
+
 // }else{
 //     console.log("пекло");
 
@@ -106,7 +105,6 @@ let result = myVar1 > myVar2 ? console.log(true) : console.log(false); // тер
 //     console.log((myVar += 1));
 // } while(false);
 
-
 // FOR
 
 // const myVar = 10;
@@ -114,13 +112,8 @@ let result = myVar1 > myVar2 ? console.log(true) : console.log(false); // тер
 //     console.log(i);
 //     if(i === 5) break;
 
-
 // let carAmount = 60; // N
 // const minCarsAmount = 10; // M
-
-
-
-
 
 // вывести в консоль заданную строку N раз
 
@@ -145,14 +138,13 @@ let result = myVar1 > myVar2 ? console.log(true) : console.log(false); // тер
 //      console.log(`$iterationText - ${counter}`);
 //  }
 
-
 // Автомобили
 
 // let carAmount = 60;
 // const minCarsAmount = 10;
 
 // for (let day = 1; carAmount > minCarsAmount; day++){
-//     carAmount /= 2;
+// carAmount /= 2;
 //     if (carAmount < minCarsAmount){
 //         console.log(`на ${day} день`);
 //         break;
@@ -182,11 +174,3 @@ let result = myVar1 > myVar2 ? console.log(true) : console.log(false); // тер
 //     console.log(`Количество високосных лет - ${leapYearsAmount}`);
 //     console.log(`Количество итераций - ${year - startYear}`);
 // }
-
-
-
-
-
-
-
-
